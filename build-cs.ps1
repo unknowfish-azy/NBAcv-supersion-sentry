@@ -1,0 +1,1 @@
+$ErrorActionPreference='Stop'; $root='E:\supervision-sentry'; $src=Get-ChildItem "$root\src\*.cs" | ForEach-Object FullName; $ref=Get-ChildItem "$PSHOME\ref\*.dll" | ForEach-Object FullName; Add-Type -Path $src -OutputAssembly "$root\SentryHardener.dll" -ReferencedAssemblies $ref; Write-Host "Built $root\SentryHardener.dll"
