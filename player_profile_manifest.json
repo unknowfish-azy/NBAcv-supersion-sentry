@@ -1,0 +1,737 @@
+{
+  "schema": "nba.player_profile.v2",
+  "players": [
+    {
+      "team": "HOU",
+      "team_name": "Houston Rockets",
+      "player_id": "2991235",
+      "name": "Steven Adams",
+      "jersey_number": "12",
+      "position": "C",
+      "height_in": 83.0,
+      "weight_lbs": 265.0,
+      "hand": "",
+      "slug": "steven-adams",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "center",
+        "height_band": "tall",
+        "weight_band": "heavy"
+      }
+    },
+    {
+      "team": "HOU",
+      "team_name": "Houston Rockets",
+      "player_id": "3037789",
+      "name": "Bogdan Bogdanovic",
+      "jersey_number": "31",
+      "position": "G",
+      "height_in": 77.0,
+      "weight_lbs": 225.0,
+      "hand": "",
+      "slug": "bogdan-bogdanovic",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "guard",
+        "height_band": "middle",
+        "weight_band": "middle"
+      }
+    },
+    {
+      "team": "HOU",
+      "team_name": "Houston Rockets",
+      "player_id": "3102529",
+      "name": "Clint Capela",
+      "jersey_number": "30",
+      "position": "C",
+      "height_in": 82.0,
+      "weight_lbs": 256.0,
+      "hand": "",
+      "slug": "clint-capela",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "center",
+        "height_band": "tall",
+        "weight_band": "heavy"
+      }
+    },
+    {
+      "team": "HOU",
+      "team_name": "Houston Rockets",
+      "player_id": "4683860",
+      "name": "Quadir Copeland",
+      "jersey_number": "25",
+      "position": "G",
+      "height_in": 78.0,
+      "weight_lbs": 220.0,
+      "hand": "",
+      "slug": "quadir-copeland",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "guard",
+        "height_band": "middle",
+        "weight_band": "middle"
+      }
+    },
+    {
+      "team": "HOU",
+      "team_name": "Houston Rockets",
+      "player_id": "4592857",
+      "name": "Isaiah Crawford",
+      "jersey_number": "27",
+      "position": "F",
+      "height_in": 78.0,
+      "weight_lbs": 220.0,
+      "hand": "",
+      "slug": "isaiah-crawford",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "forward",
+        "height_band": "middle",
+        "weight_band": "middle"
+      }
+    },
+    {
+      "team": "HOU",
+      "team_name": "Houston Rockets",
+      "player_id": "3202",
+      "name": "Kevin Durant",
+      "jersey_number": "7",
+      "position": "F",
+      "height_in": 83.0,
+      "weight_lbs": 240.0,
+      "hand": "",
+      "slug": "kevin-durant",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "forward",
+        "height_band": "tall",
+        "weight_band": "heavy"
+      }
+    },
+    {
+      "team": "HOU",
+      "team_name": "Houston Rockets",
+      "player_id": "4433192",
+      "name": "Tari Eason",
+      "jersey_number": "17",
+      "position": "F",
+      "height_in": 80.0,
+      "weight_lbs": 215.0,
+      "hand": "",
+      "slug": "tari-eason",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "forward",
+        "height_band": "middle",
+        "weight_band": "middle"
+      }
+    },
+    {
+      "team": "HOU",
+      "team_name": "Houston Rockets",
+      "player_id": "4709131",
+      "name": "Sean Pedulla",
+      "jersey_number": "0",
+      "position": "G",
+      "height_in": 73.0,
+      "weight_lbs": 195.0,
+      "hand": "",
+      "slug": "sean-pedulla",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "guard",
+        "height_band": "short",
+        "weight_band": "light"
+      }
+    },
+    {
+      "team": "HOU",
+      "team_name": "Houston Rockets",
+      "player_id": "5105553",
+      "name": "Julian Phillips",
+      "jersey_number": "3",
+      "position": "F",
+      "height_in": 78.0,
+      "weight_lbs": 198.0,
+      "hand": "B",
+      "slug": "julian-phillips",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "forward",
+        "height_band": "middle",
+        "weight_band": "light"
+      }
+    },
+    {
+      "team": "HOU",
+      "team_name": "Houston Rockets",
+      "player_id": "4871144",
+      "name": "Alperen Sengun",
+      "jersey_number": "28",
+      "position": "C",
+      "height_in": 83.0,
+      "weight_lbs": 243.0,
+      "hand": "",
+      "slug": "alperen-sengun",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "center",
+        "height_band": "tall",
+        "weight_band": "heavy"
+      }
+    },
+    {
+      "team": "HOU",
+      "team_name": "Houston Rockets",
+      "player_id": "4711272",
+      "name": "Reed Sheppard",
+      "jersey_number": "15",
+      "position": "G",
+      "height_in": 74.0,
+      "weight_lbs": 185.0,
+      "hand": "",
+      "slug": "reed-sheppard",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "guard",
+        "height_band": "short",
+        "weight_band": "light"
+      }
+    },
+    {
+      "team": "HOU",
+      "team_name": "Houston Rockets",
+      "player_id": "2990992",
+      "name": "Marcus Smart",
+      "jersey_number": "36",
+      "position": "G",
+      "height_in": 75.0,
+      "weight_lbs": 220.0,
+      "hand": "",
+      "slug": "marcus-smart",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "guard",
+        "height_band": "short",
+        "weight_band": "middle"
+      }
+    },
+    {
+      "team": "HOU",
+      "team_name": "Houston Rockets",
+      "player_id": "4432639",
+      "name": "Jabari Smith Jr.",
+      "jersey_number": "10",
+      "position": "F",
+      "height_in": 83.0,
+      "weight_lbs": 220.0,
+      "hand": "",
+      "slug": "jabari-smith-jr",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "forward",
+        "height_band": "tall",
+        "weight_band": "middle"
+      }
+    },
+    {
+      "team": "HOU",
+      "team_name": "Houston Rockets",
+      "player_id": "3136777",
+      "name": "Jae'Sean Tate",
+      "jersey_number": "8",
+      "position": "F",
+      "height_in": 76.0,
+      "weight_lbs": 230.0,
+      "hand": "",
+      "slug": "jaesean-tate",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "forward",
+        "height_band": "middle",
+        "weight_band": "middle"
+      }
+    },
+    {
+      "team": "HOU",
+      "team_name": "Houston Rockets",
+      "player_id": "4684740",
+      "name": "Amen Thompson",
+      "jersey_number": "1",
+      "position": "G",
+      "height_in": 79.0,
+      "weight_lbs": 200.0,
+      "hand": "L",
+      "slug": "amen-thompson",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "guard",
+        "height_band": "middle",
+        "weight_band": "light"
+      }
+    },
+    {
+      "team": "HOU",
+      "team_name": "Houston Rockets",
+      "player_id": "5105837",
+      "name": "Bruce Thornton",
+      "jersey_number": "2",
+      "position": "G",
+      "height_in": 72.0,
+      "weight_lbs": 223.0,
+      "hand": "R",
+      "slug": "bruce-thornton",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "guard",
+        "height_band": "short",
+        "weight_band": "middle"
+      }
+    },
+    {
+      "team": "HOU",
+      "team_name": "Houston Rockets",
+      "player_id": "4432827",
+      "name": "Oscar Tshiebwe",
+      "jersey_number": "9",
+      "position": "C",
+      "height_in": 80.0,
+      "weight_lbs": 255.0,
+      "hand": "",
+      "slug": "oscar-tshiebwe",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "center",
+        "height_band": "middle",
+        "weight_band": "heavy"
+      }
+    },
+    {
+      "team": "HOU",
+      "team_name": "Houston Rockets",
+      "player_id": "2991230",
+      "name": "Fred VanVleet",
+      "jersey_number": "5",
+      "position": "G",
+      "height_in": 72.0,
+      "weight_lbs": 197.0,
+      "hand": "",
+      "slug": "fred-vanvleet",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "guard",
+        "height_band": "short",
+        "weight_band": "light"
+      }
+    },
+    {
+      "team": "DAL",
+      "team_name": "Dallas Mavericks",
+      "player_id": "4593125",
+      "name": "Santi Aldama",
+      "jersey_number": "34",
+      "position": "F",
+      "height_in": 84.0,
+      "weight_lbs": 215.0,
+      "hand": "",
+      "slug": "santi-aldama",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "forward",
+        "height_band": "tall",
+        "weight_band": "middle"
+      }
+    },
+    {
+      "team": "DAL",
+      "team_name": "Dallas Mavericks",
+      "player_id": "5148538",
+      "name": "Tarik Biberovic",
+      "jersey_number": "13",
+      "position": "F",
+      "height_in": 79.0,
+      "weight_lbs": 218.0,
+      "hand": "",
+      "slug": "tarik-biberovic",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "forward",
+        "height_band": "middle",
+        "weight_band": "middle"
+      }
+    },
+    {
+      "team": "DAL",
+      "team_name": "Dallas Mavericks",
+      "player_id": "4432582",
+      "name": "Max Christie",
+      "jersey_number": "0",
+      "position": "G",
+      "height_in": 77.0,
+      "weight_lbs": 190.0,
+      "hand": "",
+      "slug": "max-christie",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "guard",
+        "height_band": "middle",
+        "weight_band": "light"
+      }
+    },
+    {
+      "team": "DAL",
+      "team_name": "Dallas Mavericks",
+      "player_id": "4701208",
+      "name": "Moussa Cisse",
+      "jersey_number": "30",
+      "position": "C",
+      "height_in": 83.0,
+      "weight_lbs": 220.0,
+      "hand": "",
+      "slug": "moussa-cisse",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "center",
+        "height_band": "tall",
+        "weight_band": "middle"
+      }
+    },
+    {
+      "team": "DAL",
+      "team_name": "Dallas Mavericks",
+      "player_id": "5279129",
+      "name": "Sergio de Larrea",
+      "jersey_number": "55",
+      "position": "F",
+      "height_in": 79.0,
+      "weight_lbs": 202.0,
+      "hand": "",
+      "slug": "sergio-de-larrea",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "forward",
+        "height_band": "middle",
+        "weight_band": "light"
+      }
+    },
+    {
+      "team": "DAL",
+      "team_name": "Dallas Mavericks",
+      "player_id": "5041939",
+      "name": "Cooper Flagg",
+      "jersey_number": "32",
+      "position": "F",
+      "height_in": 81.0,
+      "weight_lbs": 205.0,
+      "hand": "",
+      "slug": "cooper-flagg",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "forward",
+        "height_band": "tall",
+        "weight_band": "middle"
+      }
+    },
+    {
+      "team": "DAL",
+      "team_name": "Dallas Mavericks",
+      "player_id": "4278049",
+      "name": "Daniel Gafford",
+      "jersey_number": "21",
+      "position": "F",
+      "height_in": 82.0,
+      "weight_lbs": 265.0,
+      "hand": "",
+      "slug": "daniel-gafford",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "forward",
+        "height_band": "tall",
+        "weight_band": "heavy"
+      }
+    },
+    {
+      "team": "DAL",
+      "team_name": "Dallas Mavericks",
+      "player_id": "5105806",
+      "name": "Jett Howard",
+      "jersey_number": "9",
+      "position": "G",
+      "height_in": 80.0,
+      "weight_lbs": 215.0,
+      "hand": "",
+      "slug": "jett-howard",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "guard",
+        "height_band": "middle",
+        "weight_band": "middle"
+      }
+    },
+    {
+      "team": "DAL",
+      "team_name": "Dallas Mavericks",
+      "player_id": "6442",
+      "name": "Kyrie Irving",
+      "jersey_number": "11",
+      "position": "G",
+      "height_in": 74.0,
+      "weight_lbs": 195.0,
+      "hand": "",
+      "slug": "kyrie-irving",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "guard",
+        "height_band": "short",
+        "weight_band": "light"
+      }
+    },
+    {
+      "team": "DAL",
+      "team_name": "Dallas Mavericks",
+      "player_id": "4873153",
+      "name": "Morez Johnson Jr.",
+      "jersey_number": "14",
+      "position": "F",
+      "height_in": 81.0,
+      "weight_lbs": 250.0,
+      "hand": "",
+      "slug": "morez-johnson-jr",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "forward",
+        "height_band": "tall",
+        "weight_band": "heavy"
+      }
+    },
+    {
+      "team": "DAL",
+      "team_name": "Dallas Mavericks",
+      "player_id": "5106040",
+      "name": "Tobi Lawal",
+      "jersey_number": "33",
+      "position": "F",
+      "height_in": 80.0,
+      "weight_lbs": 215.0,
+      "hand": "",
+      "slug": "tobi-lawal",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "forward",
+        "height_band": "middle",
+        "weight_band": "middle"
+      }
+    },
+    {
+      "team": "DAL",
+      "team_name": "Dallas Mavericks",
+      "player_id": "4683688",
+      "name": "Dereck Lively II",
+      "jersey_number": "2",
+      "position": "C",
+      "height_in": 85.0,
+      "weight_lbs": 230.0,
+      "hand": "R",
+      "slug": "dereck-lively-ii",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "center",
+        "height_band": "tall",
+        "weight_band": "middle"
+      }
+    },
+    {
+      "team": "DAL",
+      "team_name": "Dallas Mavericks",
+      "player_id": "4431775",
+      "name": "Seth Lundy",
+      "jersey_number": "5",
+      "position": "G",
+      "height_in": 76.0,
+      "weight_lbs": 202.0,
+      "hand": "",
+      "slug": "seth-lundy",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "guard",
+        "height_band": "middle",
+        "weight_band": "light"
+      }
+    },
+    {
+      "team": "DAL",
+      "team_name": "Dallas Mavericks",
+      "player_id": "4278594",
+      "name": "Naji Marshall",
+      "jersey_number": "3",
+      "position": "F",
+      "height_in": 78.0,
+      "weight_lbs": 220.0,
+      "hand": "B",
+      "slug": "naji-marshall",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "forward",
+        "height_band": "middle",
+        "weight_band": "middle"
+      }
+    },
+    {
+      "team": "DAL",
+      "team_name": "Dallas Mavericks",
+      "player_id": "3138160",
+      "name": "Caleb Martin",
+      "jersey_number": "16",
+      "position": "F",
+      "height_in": 77.0,
+      "weight_lbs": 205.0,
+      "hand": "",
+      "slug": "caleb-martin",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "forward",
+        "height_band": "middle",
+        "weight_band": "middle"
+      }
+    },
+    {
+      "team": "DAL",
+      "team_name": "Dallas Mavericks",
+      "player_id": "4898238",
+      "name": "John Poulakidas",
+      "jersey_number": "1",
+      "position": "G",
+      "height_in": 78.0,
+      "weight_lbs": 205.0,
+      "hand": "L",
+      "slug": "john-poulakidas",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "guard",
+        "height_band": "middle",
+        "weight_band": "middle"
+      }
+    },
+    {
+      "team": "DAL",
+      "team_name": "Dallas Mavericks",
+      "player_id": "2531367",
+      "name": "Dwight Powell",
+      "jersey_number": "7",
+      "position": "F",
+      "height_in": 82.0,
+      "weight_lbs": 240.0,
+      "hand": "",
+      "slug": "dwight-powell",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "forward",
+        "height_band": "tall",
+        "weight_band": "heavy"
+      }
+    },
+    {
+      "team": "DAL",
+      "team_name": "Dallas Mavericks",
+      "player_id": "5211175",
+      "name": "Zaccharie Risacher",
+      "jersey_number": "10",
+      "position": "F",
+      "height_in": 80.0,
+      "weight_lbs": 200.0,
+      "hand": "",
+      "slug": "zaccharie-risacher",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "forward",
+        "height_band": "middle",
+        "weight_band": "light"
+      }
+    },
+    {
+      "team": "DAL",
+      "team_name": "Dallas Mavericks",
+      "player_id": "4432107",
+      "name": "Marcus Sasser",
+      "jersey_number": "8",
+      "position": "G",
+      "height_in": 73.0,
+      "weight_lbs": 195.0,
+      "hand": "",
+      "slug": "marcus-sasser",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "guard",
+        "height_band": "short",
+        "weight_band": "light"
+      }
+    },
+    {
+      "team": "DAL",
+      "team_name": "Dallas Mavericks",
+      "player_id": "4278078",
+      "name": "P.J. Washington",
+      "jersey_number": "25",
+      "position": "F",
+      "height_in": 79.0,
+      "weight_lbs": 230.0,
+      "hand": "",
+      "slug": "pj-washington",
+      "source": "E:\\WeChatFiles\\xwechat_files\\wxid_dzp4z788fhyg22_753e\\msg\\file\\2026-10\\火箭独行侠_球员特征.json",
+      "as_of": "",
+      "identity_features": {
+        "position_group": "forward",
+        "height_band": "middle",
+        "weight_band": "middle"
+      }
+    }
+  ],
+  "sentinel": {
+    "schema": "nba.data_sentinel.v1",
+    "status": "PASS",
+    "counts": {
+      "players": 38,
+      "games": 165,
+      "issues": 0
+    },
+    "issues": []
+  }
+}
