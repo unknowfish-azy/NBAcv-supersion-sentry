@@ -8,6 +8,8 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable
 
+VALID_SENTINEL_STATUSES = {"PASS", "WARN", "BLOCK", "UNVERIFIABLE"}
+
 
 def _text(value: Any) -> str:
     return "" if value is None else str(value).strip()
@@ -120,6 +122,75 @@ def resolve_schedule_context(
         "home": _text(game.get("home")).upper(),
         "away": _text(game.get("away")).upper(),
     }
+
+
+def classify_closed_set_frame(
+    detections: list[dict[str, Any]],
+    expected_classes: set[str],
+    observed_person_count: int | None = None,
+    independently_visible_classes: set[str] | None = None,
+) -> dict[str, Any]:
+    """Separate a valid closed-set empty frame from a likely detector miss."""
+    labels = {_text(d.get("class") or d.get("label")) for d in detections}
+    labels.discard("")
+    if detections:
+        return {"status": "detected", "known_labels": sorted(labels)}
+    if independently_visible_classes is None:
+        return {"status": "unverifiable", "reason": "person_signal_does_not_establish_target_presence"}
+    if independently_visible_classes & expected_classes:
+        return {"status": "suspicious", "reason": "independently_visible_target_not_detected"}
+    return {"status": "valid_empty_closed_set", "reason": "independent_review_found_no_target_class"}
+
+
+def validate_color_metric(*, human_gt_count: int, reported_accuracy: float | None,
+                          independent_holdout: bool = False) -> dict[str, Any]:
+    """Prevent pseudo-label self-consistency from being reported as accuracy."""
+    if not independent_holdout or human_gt_count <= 0:
+        return {"status": "unverified", "human_gt_count": human_gt_count,
+                "reported_accuracy": None, "reason": "independent_holdout_not_established"}
+    if reported_accuracy is None or not 0 <= reported_accuracy <= 1:
+        return {"status": "unverified", "reported_accuracy": None, "reason": "invalid_metric"}
+    return {"status": "human_holdout_reported", "human_gt_count": human_gt_count,
+            "reported_accuracy": reported_accuracy, "acceptance_passed": False}
+
+
+def _point_in_polygon(x: float, y: float, polygon: list[tuple[float, float]]) -> bool:
+    inside = False
+    j = len(polygon) - 1
+    for i, (xi, yi) in enumerate(polygon):
+        xj, yj = polygon[j]
+        crosses = (yi > y) != (yj > y)
+        if crosses and x < (xj - xi) * (y - yi) / ((yj - yi) or 1e-12) + xi:
+            inside = not inside
+        j = i
+    return inside
+
+
+def filter_bootstrap_boxes(
+    boxes: Iterable[dict[str, Any]], polygon: list[tuple[float, float]]
+) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    """Keep boxes whose bottom-center footpoint is inside the court polygon."""
+    kept, rejected = [], []
+    for box in boxes:
+        x, y, w, h = [float(v) for v in box["bbox"]]
+        if _point_in_polygon(x + w / 2, y + h, polygon):
+            kept.append(box)
+        else:
+            rejected.append({"id": box.get("id"), "reason": "footpoint_outside_court"})
+    return kept, {"input": len(kept) + len(rejected), "kept": len(kept),
+                  "rejected": len(rejected), "rejected_items": rejected}
+
+
+def resource_preflight(*, available_memory_mb: int, min_memory_mb: int,
+                       path: str, min_free_mb: int = 1024) -> dict[str, Any]:
+    """Pure-data preflight used by training/harvesting launchers."""
+    issues = []
+    if available_memory_mb < min_memory_mb:
+        issues.append({"code": "low_memory", "available_mb": available_memory_mb,
+                       "required_mb": min_memory_mb})
+    status = "BLOCK" if issues else "PASS"
+    return {"status": status, "issues": issues,
+            "unchecked": ["disk_space", "gpu_memory", "image_decode", "concurrent_jobs"]}
 
 
 def build_sentinel_report(

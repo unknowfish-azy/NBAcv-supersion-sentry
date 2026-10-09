@@ -27,5 +27,11 @@ nba_data_guard.py 把 ESPN roster 的 JSON/CSV 统一成 nba.player_profile.v2�
 - roster as_of 超过 180 天；
 - 赛程是否覆盖预期球队；
 - 帧时间戳与比赛日期、两队是否唯一匹配。
+- 封闭集空帧与 COCO person 信号的区分。
+- 颜色指标是否有足够的独立人工 ground truth。
+- bootstrap 框底部中心点是否落在球场多边形内。
+- 训练前内存和路径预检。
 
 哨兵不做模型准确率估计，也不把外观特征变成身份结论。
+
+颜色结果在独立人工样本少于 20 张时固定输出 `unverified`，不会采信伪标签自洽率。封闭集检测器没有检测结果时，必须结合 person/场景信号决定是 `valid_empty_closed_set`、`suspicious` 还是 `unverifiable`。
